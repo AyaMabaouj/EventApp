@@ -1,16 +1,20 @@
 //
 //  Event.swift
-//  eventworkshop
+//  event-workshop-swiftui
 //
-//  Created by Orangeodc1 on 25/4/2023.
+//  Created by ODC on 25/4/2023.
 //
 
 import Foundation
 
-struct Event {
+
+struct Event
+{
+    
     let date:String
     let image:String
     let title:String
     let location:String
+    let performers : [Performer]
     
 }

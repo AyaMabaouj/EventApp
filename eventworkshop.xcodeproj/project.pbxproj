@@ -25,6 +25,7 @@
 		387D9E5529F7E434004416B4 /* EventVitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5429F7E434004416B4 /* EventVitemView.swift */; };
 		387D9E5729F7EE62004416B4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5629F7EE62004416B4 /* Event.swift */; };
 		387D9E5929F80A80004416B4 /* EventHItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5829F80A80004416B4 /* EventHItemView.swift */; };
+		387D9E5B29F82537004416B4 /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5A29F82537004416B4 /* Performer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		387D9E5429F7E434004416B4 /* EventVitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVitemView.swift; sourceTree = "<group>"; };
 		387D9E5629F7EE62004416B4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		387D9E5829F80A80004416B4 /* EventHItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHItemView.swift; sourceTree = "<group>"; };
+		387D9E5A29F82537004416B4 /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				387D9E5629F7EE62004416B4 /* Event.swift */,
+				387D9E5A29F82537004416B4 /* Performer.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				387D9E3E29F7D99E004416B4 /* EventDetailView.swift in Sources */,
 				387D9E3C29F7D96B004416B4 /* HomeView.swift in Sources */,
 				387D9E4229F7D9FF004416B4 /* Styles.swift in Sources */,
+				387D9E5B29F82537004416B4 /* Performer.swift in Sources */,
 				387D9E5729F7EE62004416B4 /* Event.swift in Sources */,
 				387D9E5929F80A80004416B4 /* EventHItemView.swift in Sources */,
 				3816B3E329F7CD5300C40755 /* ContentView.swift in Sources */,
