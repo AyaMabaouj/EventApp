@@ -9,16 +9,16 @@ import Foundation
 import SwiftUI
 class Fonts
 {
-    static let airbnbCereal_W_Bd = "AirbnbCereal_W_Bd"
-    static let airbnbCereal_W_Bk = "AirbnbCereal_W_Bk"
-    static let airbnbCereal_W_Blk = "AirbnbCereal_W_Blk"
-    static let airbnbCereal_W_Lt = "AirbnbCereal_W_Lt"
-    static let airbnbCereal_W_Md = "AirbnbCereal_W_Md"
+   
+    static let airbnbCereal_book = "AirbnbCerealWBk"
+    static let airbnbCereal_light = "AirbnbCerealWLt"
+    static let airbnbCereal_bold = "AirbnbCerealWBd"
+    static let airbnbCereal_medium = "AirbnbCerealWMd"
 }
-class styles
+class Colors
 {
     static let black:Color = Color(uiColor : UIColor(named : "black")!)
     static let white:Color = Color(uiColor : UIColor(named : "white")!)
-    static let bleu:Color = Color(uiColor : UIColor(named : "bleu")!)
+    static let bleu:Color = Color(uiColor : UIColor(named : "primayColor")!)
 }
 

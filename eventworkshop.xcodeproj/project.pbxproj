@@ -24,6 +24,7 @@
 		387D9E5129F7DC80004416B4 /* AirbnbCereal_W_Md.otf in Resources */ = {isa = PBXBuildFile; fileRef = 387D9E4C29F7DC80004416B4 /* AirbnbCereal_W_Md.otf */; };
 		387D9E5529F7E434004416B4 /* EventVitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5429F7E434004416B4 /* EventVitemView.swift */; };
 		387D9E5729F7EE62004416B4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5629F7EE62004416B4 /* Event.swift */; };
+		387D9E5929F80A80004416B4 /* EventHItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D9E5829F80A80004416B4 /* EventHItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		387D9E5229F7DC98004416B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		387D9E5429F7E434004416B4 /* EventVitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVitemView.swift; sourceTree = "<group>"; };
 		387D9E5629F7EE62004416B4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		387D9E5829F80A80004416B4 /* EventHItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				387D9E5429F7E434004416B4 /* EventVitemView.swift */,
+				387D9E5829F80A80004416B4 /* EventHItemView.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				387D9E3C29F7D96B004416B4 /* HomeView.swift in Sources */,
 				387D9E4229F7D9FF004416B4 /* Styles.swift in Sources */,
 				387D9E5729F7EE62004416B4 /* Event.swift in Sources */,
+				387D9E5929F80A80004416B4 /* EventHItemView.swift in Sources */,
 				3816B3E329F7CD5300C40755 /* ContentView.swift in Sources */,
 				387D9E4629F7DA76004416B4 /* Config.swift in Sources */,
 				387D9E4429F7DA11004416B4 /* Consts.swift in Sources */,

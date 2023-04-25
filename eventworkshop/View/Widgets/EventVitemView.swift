@@ -1,32 +1,62 @@
 //
-//  EventVitemView.swift
-//  eventworkshop
+//  EventVItemView.swift
+//  event-workshop-swiftui
 //
-//  Created by Orangeodc1 on 25/4/2023.
+//  Created by ODC on 25/4/2023.
 //
 
 import SwiftUI
 
-struct EventVitemView: View {
+struct EventVItemView: View {
+    
+    let height: CGFloat = 120
+    let event: Event
+    
     var body: some View {
-        RoundedRectangle(cornerRadius: 12).fill(.white).shadow(radius: 2,x: 2,y: 2).overlay{
-            HStack{
-                Image("jazz")
-                VStack(spacing:12)
+        
+        RoundedRectangle(cornerRadius: 12).fill(.white).shadow(radius:2,x:2, y: 2)
+            .overlay{
+                
+                HStack(spacing:16)
                 {
-                    Text("Sat,May 1-2:00 PM").font(.custom(Fonts.airbnbCereal_W_Bd, size: 13)).frame(maxWidth: .infinity,alignment: .leading).foregroundColor(styles.bleu)
-                    Text("Sat,May 1-2:00 PM").font(.custom(Fonts.airbnbCereal_W_Bk, size: 13)).frame(maxWidth:.infinity,alignment: .leading)
                     
-                }
-            }
-        }
+                    
+                    Image(self.event.image).resizable().frame(maxWidth:90,maxHeight:110).scaledToFit().cornerRadius(12)
+                    
+                    VStack(spacing:12)
+                    {
+                        
+                        Text(self.event.date
+                        ).font(.custom(Fonts.airbnbCereal_book, size: 13)).frame(maxWidth:.infinity,alignment:.leading).foregroundColor(Colors.bleu)
+                        
+                        Text(self.event.title).font(.custom(Fonts.airbnbCereal_medium, size: 14)).frame(maxWidth: .infinity,alignment: .leading).lineLimit(2)
+                            
+                        HStack
+                        {
+                            
+                            Image("logoloc").resizable().frame(width:16,height: 16)
+                            Text(self.event.location).font(.custom(Fonts.airbnbCereal_book, size: 13)).frame(maxWidth:.infinity,alignment: .leading)
 
+                        }
+                    }
+                    
+                    Spacer()
+                    
+                }.frame(maxWidth: .infinity).padding(12)
+               
+            }.padding(.horizontal,16).frame(maxHeight:self.height)
+        
+        
+        
         
     }
 }
 
-struct EventVitemView_Previews: PreviewProvider {
+struct EventVItemView_Previews: PreviewProvider {
+    
+    
+    
     static var previews: some View {
-        EventVitemView()
+        EventVItemView(event: Event(date: "Sat, May 1 •2:00 PM", image: "jazz", title: "A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz A Virtual Evening of Smooth Jazz", location: "Lot 13 • Oakland, CA"))
     }
 }
